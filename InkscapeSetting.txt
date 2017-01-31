@@ -1,0 +1,6 @@
+Inkscape setting
+- View = custom;
+- Zoom = 1:1;
+- Align&Distribution = {Relative:LastSelected};
+- File&Strokes = {};
+
