@@ -8,10 +8,19 @@
                 $this->lastname = $lastname;
                 $this->age = $age;
                 }
-        }        
+        }
         
-        $student = new Person("borink", "42345", 15);
+        class Kid extends Person {
         
-        echo($teacher->isAlive);
-        echo($student->age)
-        ?>
+        } 
+        
+        $student = new Person("borink", 15);
+	    $kid = new Kid();
+        
+        echo($student->isAlive);
+        echo($student->age);
+
+        if (property_exists($kid,"isAlive")) {
+          echo "I'm alive!";
+        }
+?>
