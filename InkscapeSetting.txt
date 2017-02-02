@@ -1,3 +1,13 @@
+INKSCAPE SPECIALS:
+CTRL+D  	duplicate 
+CTRL+G   	group
+1       	100% zoom
+5       	Center canvas, fill screen
++ & -   	Zoom in & zoom out
+PgUp & PgDn	Move up & down stack 1 step
+Home & End	Move to top and bottom of stack
+
+====
 Inkscape setting
 - View = custom;
 - Zoom = 1:1;
