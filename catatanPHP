@@ -1,0 +1,42 @@
+<?php ?>
+//oneliner #AnotherOneLiner /*multiLiner*/ /**docStrings**/
+php-fig.com //standard_panduan
+
+//Variable
+PHP variable Types = bool, int, float, string, array, object, null. 
+php is loose typing mean automatic convert var into according to the correct data type.
+
+//constant
+constant is caseSensitive and always UPPERCASE, start with Letter/underscore. The scope of constants are global.
+define("NAMAKONSTANTA", "valuenya");
+const NAMAKONSTANTA = 'valuenya';
+
+//arrays
+$myArray = ['value1', 'value2'];
+$my2ndArray = ['key1' => 'value1', 'key2' => 'value2'];
+$my3rdArray = array("key1" = > "value1", "key2" => "value");
+$multiArray = [['value1-1', 'value1-2'], ['value2-1', 'value2-2', 'value2-3']];
+echo $my2ndArray["key"]; //value2
+echo $multiArray[0][1]; // value1-2
+
+array_pop($someArray); // removing last array value
+array_push($someArray, "newValue"); // adding new value at last position
+in_array("value", $someArray); // check if value is exists
+
+//conditional
+if() {} elseif() {} else {}
+echo $var == 'value' ? 'trueDoThis' : 'falseDoThat'; //ternary
+switch() {case 'a': ...; break; case 'b': ...; break; default: ...; break;};
+
+// !!! if ($fav_fruit =	"pineapple") Will always evaluate to true because the single "=" symbol assigns the value into the variable, rather than comparing it
+"Abc"."Def" // "AbcDef" #concatenation operator "."
+$varAbc = "Abc"; $varAbc .= "Def"; // "AbcDef" #concatenating ASSIGNment operator ".="
+
+//loops
+for ($i = 0; $i <3; $i++) {}
+$i = 0; while ($i <3) {..., $i++}
+$i = 0; do {} while ($i < 3);
+$i = ["A", "B"]; foreach ($i as $j) {echo $j;}
+$i = ['A' => 'a', 'B' => 'b']; foreach ($i as $k => $v) {echo $k . $v} // AaBb
+
+
